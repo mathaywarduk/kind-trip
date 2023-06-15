@@ -61,9 +61,9 @@ title:  "Aye, we're going to Scot&shy;land!"
   <div class="container py-12 c-buff">
     <h2>What to pack</h2>
     <div class="max-w-prose">
-      <p>You'll obviously pack clothes, toiletries etc. but here's a list of the types of things you might need.</p>
+      <p>You'll obviously pack clothes 👚, toiletries 🪥 etc. but here's a list of the types of things you might need.</p>
       <p>If you don't have something on the list, ask Mat, he has lots of stuff.</p>
-      <p>And remember, this is Scotland, so the weather is... changeable.</p>
+      <p>And remember, this is Scotland, so the weather 🌧️ is... ☀️ changeable. ❄️</p>
     </div>
     <div class="columns bt-buff border-t mt-8 pt-8">
       <div>
