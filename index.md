@@ -1,13 +1,19 @@
 ---
 layout: default
 title:  "Aye, we're going to Scot&shy;land!"
+seo:
+    title: "Kind in Scotland"
+    description: "Details of the Kind 9th anniversarry trip to Scotland - 9th - 15th July 2023."
+    image:
+        url: Highlands-005.jpg
+        alt: "Ben A'an sunset"
 ---
 
 <div class="max-w-prose">
   <p class="large">We're going to Mat's 👴🏻 spiritual home 🧎 in <a href="https://www.lochlomond-trossachs.org/">Loch Lomond and the Trossachs National Park</a>. More specifically, <a href="https://www.visitscotland.com/info/towns-villages/balquhidder-p235421">Balquhidder Glen</a>.</p>
 </div>
 
-{% include image.html url="Highlands-018.jpg" alt="" fit="crop" lazy="true" block_classes="block w-full md:w-3/4 md:ml-auto md:bleed-right mb-12" classes="" width="100%" %}
+{% include image.html url="Highlands-018.jpg" alt="Balquhidder glen" fit="crop" lazy="true" block_classes="block w-full md:w-3/4 md:ml-auto md:bleed-right mb-12" classes="" width="100%" %}
 
 <div class="max-w-prose section">
   <p class="large">Two beautiful lochs, a waterfall, big hills 🌄, mountains ⛰️, wildlife 🦌 and a couple of places to drink 🍻 and eat 😋 should we need them.</p>
