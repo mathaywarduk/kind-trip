@@ -482,8 +482,8 @@ video {
   margin-bottom: 2rem;
 }
 
-.mt-\[0\.875rem\] {
-  margin-top: 0.875rem;
+.mt-\[0\.4375rem\] {
+  margin-top: 0.4375rem;
 }
 
 .mb-12 {
@@ -506,12 +506,12 @@ video {
   display: flex;
 }
 
-.h-8 {
-  height: 2rem;
+.h-6 {
+  height: 1.5rem;
 }
 
-.w-8 {
-  width: 2rem;
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-16 {
@@ -1046,8 +1046,17 @@ body {
   }
 }
 @media (min-width: 1024px) {
+  .lg\:mt-\[0\.875rem\] {
+    margin-top: 0.875rem;
+  }
   .lg\:mb-12 {
     margin-bottom: 3rem;
+  }
+  .lg\:h-8 {
+    height: 2rem;
+  }
+  .lg\:w-8 {
+    width: 2rem;
   }
   .lg\:w-32 {
     width: 8rem;
