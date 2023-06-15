@@ -66,12 +66,12 @@ h2,
 h3,
 .h3 {
   @apply
-    font-serif
-    font-bold
-    text-base
-    lg:text-md
+    font-display
+    text-md
+    lg:text-lg
     leading-none
     mb-4
+    uppercase
   ;
 }
 
@@ -94,5 +94,18 @@ p.large {
     mb-12
     lg:text-xl
   ;
+}
+
+ul {
+  @apply
+    text-md
+    font-sans
+    mb-4
+    lg:text-lg
+  ;
+}
+
+li {
+
 }
 
