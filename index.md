@@ -3,7 +3,7 @@ layout: default
 title:  "Aye, we're going to Scot&shy;land!"
 seo:
     title: "Kind in Scotland"
-    description: "Details of the Kind 9th anniversarry trip to Scotland - 9th - 15th July 2023."
+    description: "Details of the Kind 9th anniversary trip to Scotland - 9th - 15th July 2023."
     image:
         url: Highlands-005.jpg
         alt: "Ben A'an sunset"
