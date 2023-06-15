@@ -12,7 +12,7 @@ rm -rf ../_site
 git add .
 git commit -m "$v"
 git push
-git checkout develop
+git checkout main
 mv ../node_modules .
 rm VERSION
 touch VERSION
