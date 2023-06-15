@@ -1,0 +1,13 @@
+@layer utilities {
+  .columns {
+    @apply
+      columns-xs
+      lg:columns-xl
+      gap-8
+    ;
+  }
+
+  .columns > * {
+    @apply break-inside-avoid;
+  }
+}
