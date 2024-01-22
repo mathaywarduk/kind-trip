@@ -1,43 +1,41 @@
 ---
 layout: default
-title:  "Aye, we're going to Scot&shy;land!"
+title:  "Let&rsquo;s celebrate 10&nbsp;years of&nbsp;Kind"
 seo:
-    title: "Kind in Scotland"
-    description: "Details of the Kind 9th anniversary trip to Scotland - 9th - 15th July 2023."
+    title: "Kind in Wales"
+    description: "Details of the Kind 10th anniversary trip to Wales - 12th - 15th July 2024."
     image:
         url: Highlands-005.jpg
         alt: "Ben A'an sunset"
 ---
 
 <div class="max-w-prose">
-  <p class="large">We're going to Mat's 👴🏻 spiritual home 🧎 in <a href="https://www.lochlomond-trossachs.org/">Loch Lomond and the Trossachs National Park</a>. More specifically, <a href="https://www.visitscotland.com/info/towns-villages/balquhidder-p235421">Balquhidder Glen</a>.</p>
+  <p class="large">This year we&rsquo;re off to Wales for a long weekend in the Wye Valley.</p>
 </div>
 
-{% include image.html url="Highlands-018.jpg" alt="Balquhidder glen" fit="crop" lazy="true" block_classes="block w-full md:w-3/4 md:ml-auto md:bleed-right mb-12" classes="" width="100%" %}
+{% include image.html url="wye-valley.jpg" alt="The Wye Valley" fit="crop" lazy="true" block_classes="block w-full md:w-3/4 md:ml-auto md:bleed-right mb-12" classes="" width="100%" %}
 
-<div class="max-w-prose section">
-  <p class="large">Two beautiful lochs, a waterfall, big hills 🌄, mountains ⛰️, wildlife 🦌 and a couple of places to drink 🍻 and eat 😋 should we need them.</p>
-</div>
-
-<div class="section--lg">
+<div class="section--lg py-12 lg:py-24 border-t border-b bb-indigo bt-indigo">
   <h2>Our accommodation</h2>
 
   <div class="flex flex-col gap-4 lg:flex-row lg:gap-8 xl:gap-16">
-    {% include image.html url="old-pink-library.jpg" alt="" fit="crop" lazy="true" block_classes="w-full lg:w-1/3 xl:w-2/3 shrink-0" classes="" width="" %}
+    {% include image.html url="cwm-pelved.jpg" alt="" fit="crop" lazy="true" block_classes="w-full lg:w-1/3 xl:w-2/3 shrink-0" classes="" width="" %}
     <div>
-      <p><strong>The Old Pink Library</strong></p>
-      <p>A 5-bedroom house with a log fire, outdoor deck, super-fast internet and everything we might need for a relaxing week away as a team.</p>
-      <p><a href="https://www.theoldpinklibrary.com/">Visit website</a></p>
+      <p><strong>Cwm Pelved House</strong></p>
+      <p>A large, 6-bedroom house with log fires, a pizza oven, piano and everything we might need for a relaxing weekend away as a team.</p>
+      <p><a href="https://www.cabalva.co.uk/overview">Visit website</a></p>
     </div>
   </div>
 </div>
 
+
+{% comment %}
 <div class=" b-teal bleed">
   <div class="container py-12 c-blue">
     <h2>Activities and itinerary</h2>
     <div class="columns">
       <p class="mb-6 lg:mb-12">
-        <span class="uppercase text-md md:text-lg font-display">Sunday 9th July</span><br>
+        <span class="uppercase text-md md:text-lg font-display">Friday 15th July</span><br>
         <strong>8:55am:</strong> Meet at pick up point (TBC)<br>
         <strong>9:00am:</strong> Set off 🚘<br>
         <strong>3:00pm:</strong> Arrive in Balquhidder<br>
@@ -62,14 +60,12 @@ seo:
     </div>
   </div>
 </div>
-
 <div class="b-indigo bleed pb-12">
   <div class="container py-12 c-buff">
     <h2>What to pack</h2>
     <div class="max-w-prose">
       <p>You'll obviously pack clothes 👚, toiletries 🪥 etc. but here's a list of the types of things you might need.</p>
-      <p>If you don't have something on the list, ask Mat, he has lots of stuff.</p>
-      <p>And remember, this is Scotland, so the weather 🌧️ is... ☀️ changeable. ❄️</p>
+      <p>And remember, the weather 🌧️ could be... ☀️ changeable. ❄️</p>
     </div>
     <div class="columns bt-buff border-t mt-8 pt-8">
       <div>
@@ -82,15 +78,6 @@ seo:
           <li>{% include checkbox.html label="Rucksack" %}</li>
           <li>{% include checkbox.html label="Water bottle" %}</li>
           <li>{% include checkbox.html label="Hip flask 😉" %}</li>
-          <li>{% include checkbox.html label="Swimming gear" %}</li>
-          <li>{% include checkbox.html label="A towel for swimming" %}</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Work stuff</h3>
-        <ul class="mb-6 lg:mb-12">
-          <li>{% include checkbox.html label="Work laptop" %}</li>
-          <li>{% include checkbox.html label="Laptop charger" %}</li>
         </ul>
       </div>
       <div>
@@ -106,10 +93,63 @@ seo:
   </div>
 </div>
 
-<div class="b-pink bleed">
-  <div class="container py-12 c-claret">
-    <h2>Questions or suggestions</h2>
-    <p>Got an idea for an activity? Worried about midges?</p>
-    <p>Speak to Michelle.</p>
+{% endcomment %}
+
+<div class="b-indigo bleed pb-12" id="rsvp" data-rsvp>
+  <div class="container py-12 c-buff" data-rsvp-open>
+    <h2>RSVP</h2>
+    <p class="max-w-prose large">More details are coming soon. Until then let us know you&rsquo;re coming by RSVPing below.</p>
+    <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E9056197366D147ABD378F2B547950D64980FF5010E9137B7A83CCEAB70AD40904E535C8C6E328B4FE185D944B84C93E6343002">
+      <div class="flex flex-wrap">
+        <div class="flex flex-col gap-1 p-4 w-full md:w-1/2 -mx-4 md:mr-0">
+          <label for="fieldName">Name</label>
+          <input aria-label="Name" id="fieldName" maxlength="200" name="cm-name" type="text">
+        </div>
+        <div class="flex flex-col gap-1 p-4 w-full md:w-1/2 -mx-4 md:ml-0">
+          <label for="fieldEmail">Email</label>
+          <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-jhilsr-jhilsr" required="" type="email">
+        </div>
+      </div>
+      <div class="flex gap-8 leading-none py-8">
+        <label for="3595811" class="flex gap-2 lg:gap-4 items-center">
+          <input type="radio" value="3595811" id="3595811" name="cm-fo-tilritt" class="w-6 h-6 lg:w-8 lg:h-8 shrink-0">
+          I'm in!
+        </label>
+        <label for="3595812" class="flex gap-2 lg:gap-4 items-center">
+          <input type="radio" value="3595812" id="3595812" name="cm-fo-tilritt" class="w-6 h-6 lg:w-8 lg:h-8 shrink-0">
+            I can't make it
+        </label>
+      </div>
+      <fieldset class="border-b bb-buff pb-8 mb-8">
+        <p><strong>I'm interested in</strong></p>
+        <ul class="flex flex-wrap gap-4 mb-0">
+          <li>{% include checkbox.html label="Cooking" name="cm-fo-tilritu" value="3595818" id="3595818" %}</li>
+          <li>{% include checkbox.html label="Drinking" name="cm-fo-tilritu" value="3595819" id="3595819" %}</li>
+          <li>{% include checkbox.html label="A long walk" name="cm-fo-tilritu" value="3595820" id="3595820" %}</li>
+          <li>{% include checkbox.html label="Hot tub times" name="cm-fo-tilritu" value="3595821" id="3595821" %}</li>
+          <li>{% include checkbox.html label="Pottery workshop" name="cm-fo-tilritu" value="3595822" id="3595822" %}</li>
+        </ul>
+      </fieldset>
+      <div class="flex flex-col gap-1 mb-8">
+        <label>My plus one is... </label>
+        <input aria-label="I'm bringing..." id="fieldtilriil" maxlength="200" name="cm-f-tilriil" placeholder="Who are you bringing with you?" type="text" class="w-full md:w-1/2">
+      </div>
+      <fieldset class="border-b bb-buff pb-8 mb-8">
+        <p><strong>They are interested in</strong></p>
+        <ul class="flex flex-wrap gap-4 mb-0">
+          <li>{% include checkbox.html label="Cooking" name="cm-fo-tilrihu" value="3595823" id="3595823" %}</li>
+          <li>{% include checkbox.html label="Drinking" name="cm-fo-tilrihu" value="3595824" id="3595824" %}</li>
+          <li>{% include checkbox.html label="A long walk" name="cm-fo-tilrihu" value="3595825" id="3595825" %}</li>
+          <li>{% include checkbox.html label="Hot tub times" name="cm-fo-tilrihu" value="3595826" id="3595826" %}</li>
+          <li>{% include checkbox.html label="Pottery workshop" name="cm-fo-tilrihu" value="3595827" id="3595827" %}</li>
+        </ul>
+      </fieldset>
+      <button type="submit" class="btn">RSVP</button>
+    </form>
+    <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+  </div>
+  <div class="container py-12 c-buff hidden" data-rsvp-closed>
+    <h2>RSVP</h2>
+    <p class="max-w-prose large">Thanks, you&rsquo;ve RSVPed. We'll let you know plans very soon!</p>
   </div>
 </div>

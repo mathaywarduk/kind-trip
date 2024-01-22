@@ -17,6 +17,14 @@
     background-color: var(--black);
   }
 
+  .bt-indigo {
+    border-top-color: var(--indigo);
+  }
+
+  .bb-indigo {
+    border-bottom-color: var(--indigo);
+  }
+
   .c-black {
     color: var(--black);
   }
@@ -33,8 +41,16 @@
     background-color: var(--buff);
   }
 
+  .br-buff {
+    border-color: var(--buff);
+  }
+
   .bt-buff {
     border-top-color: var(--buff);
+  }
+
+  .bb-buff {
+    border-bottom-color: var(--buff);
   }
 
   .c-buff {
@@ -67,6 +83,10 @@
 
   .b-teal {
     background-color: var(--teal);
+  }
+
+  .br-teal {
+    border-color: var(--teal);
   }
 
   .c-teal {

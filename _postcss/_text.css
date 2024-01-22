@@ -38,9 +38,9 @@ h1,
 .h1 {
   @apply
     font-display
-    text-2xl
-    md:text-4xl
-    lg:text-5xl
+    text-xl
+    md:text-2xl
+    lg:text-3xl
     uppercase
     leading-super-tight
     tracking-tight
@@ -79,29 +79,30 @@ h3,
 
 p {
   @apply
-    text-md
+    text-base
     font-sans
     mb-4
-    lg:text-lg
+    lg:text-md
   ;
 }
 
 p.large {
   @apply
-    text-lg
+    text-md
     font-serif
     leading-tight
     mb-12
-    lg:text-xl
+    lg:text-lg
   ;
 }
 
 ul {
   @apply
-    text-md
+    text-base
     font-sans
     mb-4
-    lg:text-lg
+    lg:text-md
+    leading-none
   ;
 }
 
