@@ -74,11 +74,28 @@
 //   });
 // }
 
+function RSVP(el) {
+  const urlParams = new URLSearchParams(window.location.search);
+  const rsvp = urlParams.get('rsvp');
+  const openEl = el.querySelector("[data-rsvp-open]");
+  const closedEl = el.querySelector("[data-rsvp-closed]");
+
+  if (rsvp !== undefined && rsvp == 1) {
+    openEl.classList.add('hidden');
+    closedEl.classList.remove('hidden');
+    location.href = "#";
+    location.href = "#rsvp";
+  } else {
+    openEl.classList.remove('hidden');
+    closedEl.classList.add('hidden');
+  }
+}
 
 
 
 window.addEventListener('DOMContentLoaded', (event) => {
-  [...document.querySelectorAll("[data-toggle]")].map((el) => Toggler(el));
+  // [...document.querySelectorAll("[data-toggle]")].map((el) => Toggler(el));
+  [...document.querySelectorAll("[data-rsvp]")].map((el) => RSVP(el));
   // [...document.querySelectorAll("[data-blur-load]")].map((el) => BlurLoad(el));
   // [...document.querySelectorAll("[data-scroll-int]")].map((el) => BindScroll(el));
   // [...document.querySelectorAll("[data-tabs]")].map((el) => BindTabs(el));
