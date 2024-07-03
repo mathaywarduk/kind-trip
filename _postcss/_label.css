@@ -1,0 +1,10 @@
+
+label {
+  @apply
+    text-base
+    font-sans
+    mb-2
+    lg:mb-4
+    lg:text-md
+  ;
+}

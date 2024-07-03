@@ -1,0 +1,10 @@
+input[type=text],
+input[type=email] {
+  @apply
+    text-base
+    font-sans
+    c-indigo
+    p-4
+    rounded
+  ;
+}
