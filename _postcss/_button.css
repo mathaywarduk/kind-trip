@@ -1,0 +1,28 @@
+/* ==========================================================================
+    BUTTON
+   ========================================================================== */
+
+
+.btn {
+  @apply
+    antialiased
+    border-2
+    font-bold
+    leading-none
+    no-underline
+    p-2.5 lg:px-5
+    transition-all duration-500 ease-in-out
+    br-buff 
+    c-buff
+    text-md
+    font-serif
+  ;
+}
+
+.btn:hover,
+.btn:focus {
+    @apply
+      br-teal 
+      c-teal
+    ;
+}
