@@ -32,20 +32,24 @@ seo:
 <div class=" b-teal bleed">
   <div class="container py-12 c-blue">
     <h2>Activities and itinerary</h2>
-    <p class="large">More details coming soon</p>
+    <p class="large">Our rough plan for the weekend</p>
     <div class="columns">
       <p class="mb-6 lg:mb-12">
         <span class="uppercase text-md md:text-lg font-display">Friday 12th July</span><br>
-        <strong>10:55am:</strong> Meet at pick up point (TBC)<br>
-        <strong>11:00am:</strong> Set off 🚘<br>
-        <strong>3:00pm:</strong> Arrive in Wales<br>
-        <strong>8:00pm ish:</strong> Dinner 🍽️<br></p>
+        <strong>2:00pm:</strong> Set off 🚘<br>
+        <strong>4:00pm:</strong> Michelle and Mat arrive in Wales<br>
+        <strong>5:00pm:</strong> Team arrive in Wales<br>
+        <strong>6:00pm:</strong> Walk to pub for early doors drinks<br>
+        <strong>8:00pm:</strong> Dinner 🍽️<br></p>
       <p class="mb-6 lg:mb-12"><span class="uppercase text-md md:text-lg font-display">Saturday 13th July</span><br>
-        <strong>9:00am:</strong> Team walk 🚶🏽‍♀️<br>
-        <strong>8:00pm ish:</strong> Dinner 🍛<br></p>
+        <strong>10:00am:</strong> Team walk 🚶🏽‍♀️<br>
+        <strong>2:00pm:</strong> Free afternoon - Enjoy the hot tub, swim in the river, visit Hay-on-Wye<br>
+        <strong>8:00pm:</strong> Dinner 🍛 and games 🃏<br></p>
       <p class="mb-6 lg:mb-12"><span class="uppercase text-md md:text-lg font-display">Sunday 14th July</span><br>
         <strong>Morning:</strong> Pottery workshop 🏺<br>
-        <strong>8:00pm ish:</strong> Dinner 🍖<br></p>
+        <strong>2:00pm:</strong> Free afternoon - Enjoy the hot tub, swim in the river, visit Hay-on-Wye<br>
+        <strong>7:00pm:</strong> Dinner 🍖<br>
+        <strong>8:00pm:</strong> Euro 2024 Final - Germany v England 🏆<br></p>
       <p class="mb-6 lg:mb-12"><span class="uppercase text-md md:text-lg font-display">Monday 15th July</span><br>
         <strong>9:00am:</strong> Set off home 🚘<br></p>
     </div>

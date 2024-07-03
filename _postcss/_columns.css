@@ -2,7 +2,7 @@
   .columns {
     @apply
       columns-xs
-      lg:columns-xl
+      lg:lg
       gap-8
     ;
   }
